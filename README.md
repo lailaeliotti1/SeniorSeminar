@@ -1,0 +1,2 @@
+# SeniorSeminar
+Social media app
