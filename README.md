@@ -1,8 +1,8 @@
 # SENIOR SEMINAR Project - *UNCUT*
 
-**UNCUT** is a photo sharing app using Parse as its backend.
+**UNCUT** is a photo sharing app using Firebase as its backend.
 
-Time spent: ** 0 ** hours spent in total
+Time spent: ** 4 ** hours spent in total
 
 ## User Stories
 
