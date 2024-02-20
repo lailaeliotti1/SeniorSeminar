@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00528B032B8538EC0034DDDA /* UNCUTAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00528B022B8538EC0034DDDA /* UNCUTAppApp.swift */; };
-		00528B052B8538EC0034DDDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00528B042B8538EC0034DDDA /* ContentView.swift */; };
-		00528B072B8538EE0034DDDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00528B062B8538EE0034DDDA /* Assets.xcassets */; };
-		00528B0A2B8538EE0034DDDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00528B092B8538EE0034DDDA /* Preview Assets.xcassets */; };
 		00528B142B8538EE0034DDDA /* UNCUTAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00528B132B8538EE0034DDDA /* UNCUTAppTests.swift */; };
 		00528B1E2B8538EE0034DDDA /* UNCUTAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00528B1D2B8538EE0034DDDA /* UNCUTAppUITests.swift */; };
 		00528B202B8538EE0034DDDA /* UNCUTAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00528B1F2B8538EE0034DDDA /* UNCUTAppUITestsLaunchTests.swift */; };
@@ -20,6 +16,9 @@
 		00528B342B8545420034DDDA /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 00528B332B8545420034DDDA /* FirebaseAnalyticsWithoutAdIdSupport */; };
 		00528B362B8545420034DDDA /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 00528B352B8545420034DDDA /* FirebaseAppCheck */; };
 		007A20252B854B35002DF1FA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 007A20242B854B35002DF1FA /* GoogleService-Info.plist */; };
+		007A20272B854DD0002DF1FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007A20262B854DD0002DF1FA /* ContentView.swift */; };
+		007A20292B854E1D002DF1FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 007A20282B854E1D002DF1FA /* Assets.xcassets */; };
+		007A202C2B854F16002DF1FA /* UNCUTAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007A202B2B854F16002DF1FA /* UNCUTAppApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,16 +40,15 @@
 
 /* Begin PBXFileReference section */
 		00528AFF2B8538EC0034DDDA /* UNCUTApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UNCUTApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		00528B022B8538EC0034DDDA /* UNCUTAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNCUTAppApp.swift; sourceTree = "<group>"; };
-		00528B042B8538EC0034DDDA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		00528B062B8538EE0034DDDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		00528B092B8538EE0034DDDA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		00528B0F2B8538EE0034DDDA /* UNCUTAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UNCUTAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00528B132B8538EE0034DDDA /* UNCUTAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNCUTAppTests.swift; sourceTree = "<group>"; };
 		00528B192B8538EE0034DDDA /* UNCUTAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UNCUTAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00528B1D2B8538EE0034DDDA /* UNCUTAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNCUTAppUITests.swift; sourceTree = "<group>"; };
 		00528B1F2B8538EE0034DDDA /* UNCUTAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNCUTAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		007A20242B854B35002DF1FA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		007A20262B854DD0002DF1FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		007A20282B854E1D002DF1FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		007A202B2B854F16002DF1FA /* UNCUTAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNCUTAppApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,20 +105,11 @@
 			isa = PBXGroup;
 			children = (
 				007A20242B854B35002DF1FA /* GoogleService-Info.plist */,
-				00528B022B8538EC0034DDDA /* UNCUTAppApp.swift */,
-				00528B042B8538EC0034DDDA /* ContentView.swift */,
-				00528B062B8538EE0034DDDA /* Assets.xcassets */,
-				00528B082B8538EE0034DDDA /* Preview Content */,
+				007A202B2B854F16002DF1FA /* UNCUTAppApp.swift */,
+				007A20262B854DD0002DF1FA /* ContentView.swift */,
+				007A202A2B854E3D002DF1FA /* Preview Content */,
 			);
 			path = UNCUTApp;
-			sourceTree = "<group>";
-		};
-		00528B082B8538EE0034DDDA /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				00528B092B8538EE0034DDDA /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		00528B122B8538EE0034DDDA /* UNCUTAppTests */ = {
@@ -138,6 +127,15 @@
 				00528B1F2B8538EE0034DDDA /* UNCUTAppUITestsLaunchTests.swift */,
 			);
 			path = UNCUTAppUITests;
+			sourceTree = "<group>";
+		};
+		007A202A2B854E3D002DF1FA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				007A20282B854E1D002DF1FA /* Assets.xcassets */,
+			);
+			name = "Preview Content";
+			path = "Preview Content/Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,8 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00528B0A2B8538EE0034DDDA /* Preview Assets.xcassets in Resources */,
-				00528B072B8538EE0034DDDA /* Assets.xcassets in Resources */,
+				007A20292B854E1D002DF1FA /* Assets.xcassets in Resources */,
 				007A20252B854B35002DF1FA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,8 +278,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00528B052B8538EC0034DDDA /* ContentView.swift in Sources */,
-				00528B032B8538EC0034DDDA /* UNCUTAppApp.swift in Sources */,
+				007A20272B854DD0002DF1FA /* ContentView.swift in Sources */,
+				007A202C2B854F16002DF1FA /* UNCUTAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
