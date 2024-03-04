@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  UNCUTApp
+//  unCUTAPP
 //
-//  Created by Laila Eliotti on 2/20/24.
+//  Created by Laila Eliotti on 3/4/24.
 //
 
 import SwiftUI

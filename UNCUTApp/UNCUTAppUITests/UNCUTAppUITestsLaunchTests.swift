@@ -1,13 +1,13 @@
 //
-//  UNCUTAppUITestsLaunchTests.swift
-//  UNCUTAppUITests
+//  unCUTAPPUITestsLaunchTests.swift
+//  unCUTAPPUITests
 //
-//  Created by Laila Eliotti on 2/20/24.
+//  Created by Laila Eliotti on 3/4/24.
 //
 
 import XCTest
 
-final class UNCUTAppUITestsLaunchTests: XCTestCase {
+final class unCUTAPPUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

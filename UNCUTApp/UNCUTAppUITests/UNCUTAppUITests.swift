@@ -1,13 +1,13 @@
 //
-//  UNCUTAppUITests.swift
-//  UNCUTAppUITests
+//  unCUTAPPUITests.swift
+//  unCUTAPPUITests
 //
-//  Created by Laila Eliotti on 2/20/24.
+//  Created by Laila Eliotti on 3/4/24.
 //
 
 import XCTest
 
-final class UNCUTAppUITests: XCTestCase {
+final class unCUTAPPUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
