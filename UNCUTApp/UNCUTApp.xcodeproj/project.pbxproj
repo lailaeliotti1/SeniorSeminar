@@ -19,6 +19,7 @@
 		00B16C9B2B96D6EC0005854B /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 00B16C9A2B96D6EC0005854B /* FirebaseAnalyticsSwift */; };
 		00B16C9D2B96D6F40005854B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 00B16C9C2B96D6F40005854B /* FirebaseAuth */; };
 		00B16CA02B96DC0F0005854B /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B16C9F2B96DC0F0005854B /* AuthView.swift */; };
+		00B16CA22B97880D0005854B /* SignInEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B16CA12B97880D0005854B /* SignInEmailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		003B13372B962C2C004F420A /* unCUTAPPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = unCUTAPPUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		00B16C972B9666930005854B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		00B16C9F2B96DC0F0005854B /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		00B16CA12B97880D0005854B /* SignInEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				00B16C9F2B96DC0F0005854B /* AuthView.swift */,
+				00B16CA12B97880D0005854B /* SignInEmailView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				003B131D2B962C2A004F420A /* ContentView.swift in Sources */,
 				003B131B2B962C2A004F420A /* unCUTAPPApp.swift in Sources */,
 				00B16CA02B96DC0F0005854B /* AuthView.swift in Sources */,
+				00B16CA22B97880D0005854B /* SignInEmailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
