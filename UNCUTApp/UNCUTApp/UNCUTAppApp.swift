@@ -7,6 +7,7 @@
 
 import SwiftUI
 import FirebaseCore
+import FirebaseAuth
 
 class AppDelegate: NSObject, UIApplicationDelegate {
   func application(_ application: UIApplication,
@@ -24,6 +25,11 @@ struct unCUTApp: App {
   var body: some Scene {
     WindowGroup {
       NavigationView {
+      if Auth.auth().currentUser != nil {
+        ContentView()
+      } else {
+        AuthView()
+      }
         ContentView()
       }
     }
