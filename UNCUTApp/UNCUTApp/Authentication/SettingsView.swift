@@ -41,7 +41,7 @@ struct SettingsView: View {
         List {
             Button("Log out"){
                 Task {
-                    do { 
+                    do {
                         try viewModel.logOut()
                         showSignInView = true
                     }
@@ -78,7 +78,7 @@ struct SettingsView: View {
             Button("Update Email"){
                 Task {
                     do {
-                        try await viewModel.updatePassword()
+                        try await viewModel.updateEmail()
                         print("EMAIL UPDATED")
                     }
                     catch {
