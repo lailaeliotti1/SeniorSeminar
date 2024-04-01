@@ -26,6 +26,7 @@
 		00B16CA02B96DC0F0005854B /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B16C9F2B96DC0F0005854B /* AuthView.swift */; };
 		00B16CA22B97880D0005854B /* SignInEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B16CA12B97880D0005854B /* SignInEmailView.swift */; };
 		00BC21A02BB8DDA2009AA07B /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BC219F2BB8DDA2009AA07B /* Utilities.swift */; };
+		00BC21A22BBAF84D009AA07B /* GoogleSignInHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BC21A12BBAF84D009AA07B /* GoogleSignInHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		00B16C9F2B96DC0F0005854B /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		00B16CA12B97880D0005854B /* SignInEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailView.swift; sourceTree = "<group>"; };
 		00BC219F2BB8DDA2009AA07B /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		00BC21A12BBAF84D009AA07B /* GoogleSignInHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignInHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 				00B16CA12B97880D0005854B /* SignInEmailView.swift */,
 				00A6049D2BB3663D00DB5CA6 /* SettingsView.swift */,
 				00A604992BB34AA800DB5CA6 /* AuthManager.swift */,
+				00BC21A12BBAF84D009AA07B /* GoogleSignInHelper.swift */,
 				00A6049B2BB3567500DB5CA6 /* RootView.swift */,
 			);
 			path = Authentication;
@@ -322,6 +325,7 @@
 				003B131D2B962C2A004F420A /* ContentView.swift in Sources */,
 				003B131B2B962C2A004F420A /* unCUTAPPApp.swift in Sources */,
 				00A6049C2BB3567500DB5CA6 /* RootView.swift in Sources */,
+				00BC21A22BBAF84D009AA07B /* GoogleSignInHelper.swift in Sources */,
 				00B16CA02B96DC0F0005854B /* AuthView.swift in Sources */,
 				00B16CA22B97880D0005854B /* SignInEmailView.swift in Sources */,
 				00BC21A02BB8DDA2009AA07B /* Utilities.swift in Sources */,
