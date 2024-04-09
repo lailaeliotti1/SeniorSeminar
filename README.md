@@ -2,7 +2,7 @@
 
 **UNCUT** is a photo sharing app using Firebase as its backend.
 
-Time spent: **18** hours spent in total
+Time spent: **22** hours spent in total
 
 ## User Stories
 
