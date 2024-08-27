@@ -2,17 +2,18 @@
 
 **UNCUT** is a photo sharing app using Firebase as its backend.
 
-Time spent: ** 4 ** hours spent in total
+Time spent: **22** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is completed:
 
-- [ ] User sees app icon in home screen.
-- [ ] User can sign up to create a new account using Parse authentication
-- [ ] User can log in to their account
+- [X] User sees app icon in home screen.
+- [X] User can sign up to create a new account using Parse authentication
+- [X] User can log in to their account
+- [X] User can sign in using Google
 - [ ] The current signed in user is persisted across app restarts
-- [ ] User can log out of their account
+- [X] User can log out of their account
 - [ ] User can take a photo, add a caption, and post it to "Instagram"
 - [ ] User can view the last 20 posts submitted to "Instagram"
 - [ ] User can pull to refresh the last 20 posts submitted to "Instagram"
