@@ -25,6 +25,7 @@ struct unCUTApp: App {
   var body: some Scene {
       WindowGroup {
           RootView()
+          .environmentObject(PostViewModel())
       }
       }
     }
