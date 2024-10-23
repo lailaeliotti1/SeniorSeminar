@@ -1,3 +1,10 @@
+//
+//  ImagePicker.swift
+//  unCUTAPP
+//
+//  Created by Laila Eliotti on 9/10/24.
+//
+
 import SwiftUI
 
 struct ProfileView: View {
@@ -7,6 +14,7 @@ struct ProfileView: View {
 
     var body: some View {
         VStack {
+            // Display the selected profile image or a placeholder
             if let image = profileImage {
                 Image(uiImage: image)
                     .resizable()
@@ -23,6 +31,7 @@ struct ProfileView: View {
                     .foregroundColor(.gray)
             }
 
+            // Button to show the camera for changing the profile picture
             Button(action: {
                 showImagePicker = true
             }) {
@@ -35,6 +44,7 @@ struct ProfileView: View {
             }
             .padding()
 
+            // List of posts
             List(postViewModel.posts) { post in
                 VStack(alignment: .leading) {
                     Image(uiImage: post.image)
@@ -50,8 +60,9 @@ struct ProfileView: View {
                 .padding(.vertical)
             }
         }
+        // Present the ImagePicker with the camera as the source
         .sheet(isPresented: $showImagePicker) {
-            ImagePicker(image: $profileImage, sourceType: .camera)
+            ImagePicker(image: $profileImage)  // Fixed reference to .camera
         }
     }
 }

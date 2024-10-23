@@ -18,6 +18,7 @@
 		0069075A2BC5BE3200F9A760 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006907592BC5BE3200F9A760 /* MainTabView.swift */; };
 		006EB1AD2BB6729A00BBB7B5 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 006EB1AC2BB6729A00BBB7B5 /* GoogleSignIn */; };
 		006EB1AF2BB6729A00BBB7B5 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 006EB1AE2BB6729A00BBB7B5 /* GoogleSignInSwift */; };
+		0071C74A2CC861C700CACDCD /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0071C7492CC861C700CACDCD /* PostViewModel.swift */; };
 		00A6049A2BB34AA800DB5CA6 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A604992BB34AA800DB5CA6 /* AuthManager.swift */; };
 		00A6049C2BB3567500DB5CA6 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6049B2BB3567500DB5CA6 /* RootView.swift */; };
 		00A6049E2BB3663D00DB5CA6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6049D2BB3663D00DB5CA6 /* SettingsView.swift */; };
@@ -62,6 +63,7 @@
 		003B13372B962C2C004F420A /* unCUTAPPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = unCUTAPPUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		006907592BC5BE3200F9A760 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		006EB1B02BB672D500BBB7B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0071C7492CC861C700CACDCD /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
 		00A604992BB34AA800DB5CA6 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		00A6049B2BB3567500DB5CA6 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		00A6049D2BB3663D00DB5CA6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
@@ -200,6 +202,7 @@
 			children = (
 				00CDE3452C91525A0093C9C6 /* ProfileView.swift */,
 				00CDE3472C9152750093C9C6 /* ImagePicker.swift */,
+				0071C7492CC861C700CACDCD /* PostViewModel.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0071C74A2CC861C700CACDCD /* PostViewModel.swift in Sources */,
 				00A6049E2BB3663D00DB5CA6 /* SettingsView.swift in Sources */,
 				003B131D2B962C2A004F420A /* ContentView.swift in Sources */,
 				003B131B2B962C2A004F420A /* unCUTAPPApp.swift in Sources */,
